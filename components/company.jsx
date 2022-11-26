@@ -34,7 +34,7 @@ const Company = () => {
               delivery of all the artifacts.
             </li>
             <li className={styles.li}>
-              Customer Satisfaction: Our goal is to exceed customer's
+              Customer Satisfaction: Our goal is to exceed customer&lsquo;s
               expectation and achieve total customer satisfaction.
             </li>
             <li className={styles.li}>
@@ -51,12 +51,12 @@ const Company = () => {
           <h4>On Shore/Near Shore Services Model:</h4>
           <ul className={styles.ul}>
             <li className={styles.li}>
-              In this model, we provide resources either to the customer's main
-              development site or near shore to make it more interesting and
-              effective to the customer to meet the development deadlines. This
-              way the customers can manage the resources based on the project
-              needs. This allows customer more predictability, control and
-              maintain quality.
+              In this model, we provide resources either to the customer&lsquo;s
+              main development site or near shore to make it more interesting
+              and effective to the customer to meet the development deadlines.
+              This way the customers can manage the resources based on the
+              project needs. This allows customer more predictability, control
+              and maintain quality.
             </li>
           </ul>
           <h4>Offshore Model:</h4>
@@ -89,8 +89,8 @@ const Company = () => {
           <h2>Domain Expertise: Mobile Apps Development</h2>
           <ul className={styles.ul}>
             <li className={styles.li}>
-              <b>Appcelerator's Titanium platform:</b> This is one of the best
-              multi-OS development platforms that sBIT is focusing on
+              <b>Appcelerator&lsquo;s Titanium platform:</b> This is one of the
+              best multi-OS development platforms that sBIT is focusing on
               development and create expertise
             </li>
 

@@ -32,8 +32,8 @@ const AboutUs = () => {
             delivery of all the artifacts.
           </li>
           <li className={styles.li}>
-            Customer Satisfaction: Our goal is to exceed customer's expectation
-            and achieve total customer satisfaction.
+            Customer Satisfaction: Our goal is to exceed customer&lsquo;s
+            expectation and achieve total customer satisfaction.
           </li>
           <li className={styles.li}>
             Innovation: With our services and technology we strive to deliver
