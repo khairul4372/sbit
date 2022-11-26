@@ -1,0 +1,31 @@
+.ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+ }
+ .li:before {
+    content: "►";
+    display: block;
+    float: left;
+    width: 1.2em;
+    color: black;
+}
+
+.com_body{
+    justify-content: left;
+    color: black;
+    width: 94%;
+}
+.com_image_body{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.com_image{
+    display: block;
+    width: 16rem;
+    height: 4rem;
+}

@@ -1,26 +1,29 @@
 import React from "react";
+import Link from "next/link";
 import styles from "../styles/footer.module.css";
 
 const Footer = () => {
   return (
     <>
       <div className={styles.bg}>
-        <a className={styles.bar} href="">
+        <Link className={styles.bar} href="/">
           Home
-        </a>
-        <a className={styles.bar} href="">
+        </Link>
+        <Link className={styles.bar} href="/services">
           Services
-        </a>
-        <a className={styles.bar} href="">
+        </Link>
+        <Link className={styles.bar} href="/partners">
           Partners
-        </a>
-        <a className={styles.bar} href="">
+        </Link>
+        <Link className={styles.bar} href="/company">
           Company
-        </a>
-        <a className={styles.bar} href="">
+        </Link>
+        <Link className={styles.bar} href="/about">
           About Us
-        </a>
-        <a href="">Contacts</a>
+        </Link>
+        <Link className={styles.bar} href="/contact">
+          Contacts
+        </Link>
       </div>
     </>
   );

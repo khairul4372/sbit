@@ -1,15 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Header from '../components/Header'
-import Hero from '../components/hero'
-import Home_content from '../components/home-content'
-import Contact from '../components/contact'
-import Footer from '../components/footer'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Header from "../components/Header";
+import Hero from "../components/hero";
+import ContactUs from "../components/contact_us";
+import Contact from "../components/contact";
+import Footer from "../components/footer";
 
-
-export default function Home() {
+export default function AboutUs() {
   return (
     <div className={styles.container}>
       <Head>
@@ -20,10 +18,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <Header />
-        <Hero />  
-        <Home_content />
-        <Contact />   
-        <Footer />    
+        <Hero />
+        <ContactUs />
+        <Contact />
+        <Footer />
       </main>
 
       {/* <footer className={styles.footer}>
@@ -39,5 +37,5 @@ export default function Home() {
         </a>
       </footer> */}
     </div>
-  )
+  );
 }
