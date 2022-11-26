@@ -1,0 +1,22 @@
+.hero{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 0;
+    width: 100%;
+}
+.hero a{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: black;
+    box-shadow: 2px 2px 5px 2px #888888;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}

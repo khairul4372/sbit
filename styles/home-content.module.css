@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: left;
+    padding-left: 1.5%;
+}
+.left{
+    padding: 2%;
+    width: 30%;
+}
