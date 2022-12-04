@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <>
       <div className={styles.hero}>
-        <Link href="/about">OUTSOURCING MODULE</Link>
-        <a href="">CADENCE UNIVERSITY PROGRAM IN BANGLADESH</a>
-        <a href="">MOBILE APP DEVELOPMENT</a>
-        <a href="">NEWS</a>
-        <a href="">TRAINING PROGRAM</a>
+        <Link href="/outsourcing">OUTSOURCING MODULE</Link>
+        <Link href="/cadence">CADENCE UNIVERSITY PROGRAM IN BANGLADESH</Link>
+        <Link href="/mobile">MOBILE APP DEVELOPMENT</Link>
+        <Link href="/news">NEWS</Link>
+        <Link href="/training">TRAINING PROGRAM</Link>
       </div>
     </>
   );

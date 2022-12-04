@@ -3,11 +3,11 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Hero from "../components/hero";
-import Product from "../components/product";
+import MobileAppDevelopment from "../components/mobile_app_development";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 
-export default function Services() {
+export default function OutSourcing() {
   return (
     <div className={styles.container}>
       <Head>
@@ -19,7 +19,7 @@ export default function Services() {
       <main className={styles.main}>
         <Header />
         <Hero />
-        <Product />
+        <MobileAppDevelopment />
         <Contact />
         <Footer />
       </main>
