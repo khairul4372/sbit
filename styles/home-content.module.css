@@ -7,5 +7,28 @@
 }
 .left{
     padding: 2%;
-    width: 30%;
+    width: 32%;
+}
+.link{
+    background: url(/images/row-link-bg.gif) no-repeat 6px center;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+  }
+@media (max-width: 600px) {
+    .main{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        
+    }
+    .left{
+        padding: 5%;
+        width: 90%;
+        justify-content: center;
+
+       align-items: center;
+    }
+    
 }

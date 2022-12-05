@@ -13,7 +13,9 @@ const Home_content = () => {
             IT areas for our clients. Our experienced engineers will be guiding
             you to get the best IT solution for your company.....
           </p>
-          <a href="">Read More</a>
+          <a className="text-decoration-none text-reset" href="">
+            <img src="/images/row-link-bg.gif" alt="" /> Read More
+          </a>
         </div>
         <div className={styles.left}>
           <img src="/images/semiconductor.png" alt="" />
@@ -24,7 +26,9 @@ const Home_content = () => {
             fabricated on a single chip. And a VLSI (Very Large Scale
             Integration) system...
           </p>
-          <a href="">Read More</a>
+          <a className="text-decoration-none text-reset" href="">
+            <img src="/images/row-link-bg.gif" alt="" /> Read More
+          </a>
         </div>
         <div className={styles.left}>
           <img src="/images/solar.png" alt="" />
@@ -34,7 +38,9 @@ const Home_content = () => {
             year, and by 2050, it is projected to be about 30 TW. The present PV
             market grows at very high rates (30-40%), simi....
           </p>
-          <a href="">Read More</a>
+          <a className="text-decoration-none text-reset" href="">
+            <img src="/images/row-link-bg.gif" alt="" /> Read More
+          </a>
         </div>
       </div>
     </>
