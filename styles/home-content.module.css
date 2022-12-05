@@ -9,13 +9,7 @@
     padding: 2%;
     width: 32%;
 }
-.link{
-    background: url(/images/row-link-bg.gif) no-repeat 6px center;
-    width: 100px;
-    height: 100px;
-    display: inline-block;
 
-  }
 @media (max-width: 600px) {
     .main{
        flex-direction: column;
@@ -31,4 +25,31 @@
        align-items: center;
     }
     
+}
+
+/* software */
+.ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+ }
+ .li:before {
+    content: "►";
+    display: block;
+    float: left;
+    width: 1.2em;
+    color: black;
+}
+
+.content_body{
+    align-items: flex-start;
+    margin: auto;
+    color: black;
+    width: 94%;
+}
+
+/* semiconductor */
+.width{
+    width: 85%;
 }

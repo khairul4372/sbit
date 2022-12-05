@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "../styles/home-content.module.css";
 
 const Home_content = () => {
@@ -13,9 +14,9 @@ const Home_content = () => {
             IT areas for our clients. Our experienced engineers will be guiding
             you to get the best IT solution for your company.....
           </p>
-          <a className="text-decoration-none text-reset" href="">
+          <Link className="text-decoration-none text-reset" href="/software">
             <img src="/images/row-link-bg.gif" alt="" /> Read More
-          </a>
+          </Link>
         </div>
         <div className={styles.left}>
           <img src="/images/semiconductor.png" alt="" />
@@ -26,9 +27,12 @@ const Home_content = () => {
             fabricated on a single chip. And a VLSI (Very Large Scale
             Integration) system...
           </p>
-          <a className="text-decoration-none text-reset" href="">
+          <Link
+            className="text-decoration-none text-reset"
+            href="/semiconductor"
+          >
             <img src="/images/row-link-bg.gif" alt="" /> Read More
-          </a>
+          </Link>
         </div>
         <div className={styles.left}>
           <img src="/images/solar.png" alt="" />
@@ -38,9 +42,9 @@ const Home_content = () => {
             year, and by 2050, it is projected to be about 30 TW. The present PV
             market grows at very high rates (30-40%), simi....
           </p>
-          <a className="text-decoration-none text-reset" href="">
+          <Link className="text-decoration-none text-reset" href="/solar">
             <img src="/images/row-link-bg.gif" alt="" /> Read More
-          </a>
+          </Link>
         </div>
       </div>
     </>
