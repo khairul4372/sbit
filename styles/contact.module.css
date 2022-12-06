@@ -28,7 +28,7 @@
     left: 2%;
 }
 
-@media (max-width: 748px) {
+@media (max-width: 768px) {
     .bg{
        flex-direction: column;
         

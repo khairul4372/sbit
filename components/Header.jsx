@@ -18,7 +18,11 @@ const Header = () => {
           </div> */}
           <Carousel />
           <div className={styles.slider_header}>
-            <img src="/images/header-img-top.png" alt="header img top" />
+            <img
+              className={styles.top_img}
+              src="/images/header-img-top.png"
+              alt="header img top"
+            />
           </div>
         </div>
       </div>

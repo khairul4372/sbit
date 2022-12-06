@@ -10,7 +10,7 @@
     width: 32%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .main{
        flex-direction: column;
        justify-content: center;
