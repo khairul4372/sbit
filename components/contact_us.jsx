@@ -14,6 +14,8 @@ const ContactUs = () => {
           <p>FAX:408-446-1972</p>
           <p>E-Mail: contact@sbit-us.com</p>
         </div>
+        <br />
+        <br />
         <div className={styles.page_address}>
           <h4>ASIA OFFICE:</h4>
           <p>Road No. 6, House No. 480, 2nd Floor</p>

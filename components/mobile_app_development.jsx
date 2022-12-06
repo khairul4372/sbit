@@ -8,7 +8,7 @@ const MobileAppDevelopment = () => {
       <div className={styles.com_body}>
         {/* Domain Expertise */}
         <div className={styles.com_content}>
-          <h2>Domain Expertise: Mobile Apps Development</h2>
+          <h2>Mobile App Development</h2>
           <ul className={styles.ul}>
             <li className={styles.li}>
               <b>Appcelerator&lsquo;s Titanium platform:</b> This is one of the

@@ -24,8 +24,8 @@ const SemiconductorContent = () => {
             designing. IC or Integrated Circuits contains several transistors
             fabricated on a single chip. And a VLSI (Very Large Scale
             Integration) system integrates millions (30000 - 1000000) of
-            "electronic components" in a small area (few mm²-&gt; few cm²).To
-            design anything as we need like a Microprocessor,
+            &quot;electronic components&quot; in a small area (few mm²-&gt; few
+            cm²).To design anything as we need like a Microprocessor,
             Microcontroller,Memories,Printer, Mobile, Digital security lock in a
             word everything of our day to day use need a chip. This chip is the
             ultimate design of a VLSI design flow. Which actually go through as

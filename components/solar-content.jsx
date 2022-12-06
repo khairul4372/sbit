@@ -18,23 +18,24 @@ const SolarContent = () => {
         </p>
         <p className={styles.width}>
           Solar energy is available everywhere; but the greatest amount is
-          available between two broad bands encircling the earth between 15" and
-          35" latitude north and south. Fortunately, Bangladesh is situated
-          between 20"43' north and 26"38' north latitude and as such Bangladesh
-          is in a very favorable position in respect of the utilization of solar
-          energy. The insolation in Bangladesh varies from 3.8 kwh/m²/day to 6.4
-          kwh/m²/day at an average of 5 kwh/m²/day. Annual amount of radiation
-          varies from 1840 to 1675 kwh/m² which is 50-100% higher than in
-          Europe.These indicate that there are good prospects for solar thermal
-          and photovoltaic application in the country.
+          available between two broad bands encircling the earth between
+          15&quot; and 35&quot; latitude north and south. Fortunately,
+          Bangladesh is situated between 20&quot;43&apos; north and
+          26&quot;38&apos; north latitude and as such Bangladesh is in a very
+          favorable position in respect of the utilization of solar energy. The
+          insolation in Bangladesh varies from 3.8 kwh/m²/day to 6.4 kwh/m²/day
+          at an average of 5 kwh/m²/day. Annual amount of radiation varies from
+          1840 to 1675 kwh/m² which is 50-100% higher than in Europe.These
+          indicate that there are good prospects for solar thermal and
+          photovoltaic application in the country.
         </p>
         <p className={styles.width}>
           The government has set a target of generating 500 megawatts (MW) of
           green energy - almost ten times the current amount - by 2015, in an
           attempt to narrow the gap between current supplies of grid electricity
-          and the needs of the country's 160 million people. Only 49 percent of
-          Bangladesh's population has access to electricity from the national
-          grid.
+          and the needs of the country&apos;s 160 million people. Only 49
+          percent of Bangladesh&apos;s population has access to electricity from
+          the national grid.
         </p>
         <p>
           Presently, 62% of the total population (including renewable energy)
@@ -52,12 +53,12 @@ const SolarContent = () => {
           around 34,000 MW while the generation capacity would be about
           39,000MW.Presently, the generation capacity is nearly 9,713 MW
           (September, 2013) which implies that much endeavor is required to
-          achieve the goal. Considering the country's future energy security,
-          the government has rightly given due importance on renewable energy,
-          energy efficiency as well as energy conservation.
+          achieve the goal. Considering the country&apos;s future energy
+          security, the government has rightly given due importance on renewable
+          energy, energy efficiency as well as energy conservation.
         </p>
         <p>
-          Solar home systems (SHS) are the main weapon in the government's
+          Solar home systems (SHS) are the main weapon in the government&apos;s
           renewable energy armory, because they can operate independently of the
           national grid.
         </p>
