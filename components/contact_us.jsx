@@ -18,8 +18,8 @@ const ContactUs = () => {
         <br />
         <div className={styles.page_address}>
           <h4>ASIA OFFICE:</h4>
-          <p>Road No. 6, House No. 480, 2nd Floor</p>
-          <p>Mirpur DOHS, Dhaka-1216</p>
+          <p>Road No. 12/b, House No. 1173</p>
+          <p>Mirpur DOHS, Dhaka-1230</p>
           <p>
             Phone: 88-0171-274-0463, <br /> 88-0186-503-0700
           </p>
