@@ -22,7 +22,10 @@ const Footer = () => {
           About Us
         </Link>
         <Link className={styles.bar} href="/contact">
-          Contacts
+          Contacts Us
+        </Link>
+        <Link className={styles.bar} href="/career">
+          Career
         </Link>
       </div>
     </>
