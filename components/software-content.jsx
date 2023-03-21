@@ -1,12 +1,14 @@
 import React from "react";
 import styles from "../styles/home-content.module.css";
+import Image from "next/image";
+import software from "../public/images/software.png";
 
 const SoftwareContent = () => {
   return (
     <>
       <div className={styles.content_body}>
         <div>
-          <img className="" src="/images/software.png" alt="software" />
+          <Image className="" src={software} alt="software" />
           <h4>SOFTWARE</h4>
           <br />
         </div>

@@ -1,11 +1,13 @@
 import React from "react";
 import styles from "../styles/home-content.module.css";
+import Image from "next/image";
+import solar from "../public/images/solar.png";
 
 const SolarContent = () => {
   return (
     <>
       <div className={styles.content_body}>
-        <img className="" src="/images/solar.png" alt="solar" />
+        <Image className="" src={solar} alt="solar" />
         <h4>SOLAR ENERGY</h4>
         <br />
 

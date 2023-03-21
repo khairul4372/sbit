@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "../styles/partners.module.css";
+import Image from "next/image";
+import cadance_logo from "../public/images/cadance-logo.png";
+import sunedisonLogo from "../public/images/sunedisonLogo.png";
 
 const Partner = () => {
   return (
@@ -7,14 +10,14 @@ const Partner = () => {
       <div className={styles.com_body}>
         <h2>Our Partners:</h2>
         <div className={styles.com_image_body}>
-          <img
+          <Image
             className={styles.com_image}
-            src="/images/cadance-logo.png"
+            src={cadance_logo}
             alt="adance-logo"
           />
-          <img
+          <Image
             className={styles.com_image}
-            src="/images/sunedisonLogo.png"
+            src={sunedisonLogo}
             alt="sunedisonLogo"
           />
         </div>

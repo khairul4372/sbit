@@ -1,22 +1,22 @@
 import React from "react";
 import styles from "../styles/home-content.module.css";
+import Image from "next/image";
+import semiconductor from "../public/images/semiconductor.png";
+import semicond from "../public/images/semicond.jpeg";
+import semicond2 from "../public/images/semicond2.jpeg";
 
 const SemiconductorContent = () => {
   return (
     <>
       <div className={styles.content_body}>
         <div className={styles.content_width}>
-          <img
-            className=""
-            src="/images/semiconductor.png"
-            alt="semiconductor"
-          />
+          <Image className="" src={semiconductor} alt="semiconductor" />
           <h4>SEMI-CONDUCTOR</h4>
           <br />
 
-          <img
+          <Image
             className={styles.width}
-            src="/images/semicond.jpeg"
+            src={semicond}
             alt="semiconductor 1"
           />
           <p className={styles.width}>
@@ -44,9 +44,9 @@ const SemiconductorContent = () => {
             Furthermore the field of opportunities of VLSI is huge, we can take
             a glance as mention in here:
           </p>
-          <img
+          <Image
             className={styles.width}
-            src="/images/semicond2.jpeg"
+            src={semicond2}
             alt="semiconductor 2"
           />
           <p className={styles.width}>

@@ -12,6 +12,7 @@ import aiub from "../public/images/aiub.png";
 import iiuc from "../public/images/iiuc.png";
 import uiu from "../public/images/uiu.gif";
 import nsl2 from "../public/images/nsl2.jpeg";
+import cadance_logo from "../public/images/cadance-logo.png";
 
 const Cadence = () => {
   return (
@@ -19,9 +20,9 @@ const Cadence = () => {
       <div>
         <h2>Our Partners:</h2>
         <div className={styles.com_image_body}>
-          <img
+          <Image
             className={styles.com_image}
-            src="/images/cadance-logo.png"
+            src={cadance_logo}
             alt="adance-logo"
           />
         </div>

@@ -1,5 +1,11 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import Image from "next/image";
+import slide1 from "../public/images/slide1.jpeg";
+import slide2 from "../public/images/slide2.jpeg";
+import slide3 from "../public/images/slide3.jpeg";
+import slide4 from "../public/images/slide4.jpeg";
+import slide5 from "../public/images/slide5.jpeg";
 
 /* const items = [
   {
@@ -42,43 +48,23 @@ import Carousel from "react-bootstrap/Carousel";
 const ImageCarousel = () => (
   <Carousel>
     <Carousel.Item>
-      <img
-        className="d-block w-100"
-        src="/images/slide1.jpeg"
-        alt="First slide"
-      />
+      <Image className="d-block w-100" src={slide1} alt="First slide" />
       {/* <Carousel.Caption>
         <h3>First slide label</h3>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </Carousel.Caption> */}
     </Carousel.Item>
     <Carousel.Item>
-      <img
-        className="d-block w-100"
-        src="/images/slide2.jpeg"
-        alt="Second slide"
-      />
+      <Image className="d-block w-100" src={slide2} alt="Second slide" />
     </Carousel.Item>
     <Carousel.Item>
-      <img
-        className="d-block w-100"
-        src="/images/slide3.jpeg"
-        alt="Third slide"
-      />
+      <Image className="d-block w-100" src={slide3} alt="Third slide" />
     </Carousel.Item>
     <Carousel.Item>
-      <img
-        className="d-block w-100"
-        src="/images/slide4.jpeg"
-        alt="Forth slide"
-      />
+      <Image className="d-block w-100" src={slide4} alt="Forth slide" />
     </Carousel.Item>
     <Carousel.Item>
-      <img
-        className="d-block w-100"
-        src="/images/slide5.jpeg"
-        alt="Fifth slide"
-      />
+      <Image className="d-block w-100" src={slide5} alt="Fifth slide" />
     </Carousel.Item>
   </Carousel>
 );

@@ -1,7 +1,10 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/header.module.css";
 import Carousel from "./image_carousel";
+import logo from "../public/images/logo.png";
+import header_img from "../public/images/header-img-top.png";
 
 const Header = () => {
   return (
@@ -9,7 +12,7 @@ const Header = () => {
       <div className={styles.header}>
         <div className={styles.logo}>
           <Link href="/">
-            <img src="/images/logo.png" alt="logo" />
+            <Image src={logo} alt="logo" />
           </Link>
         </div>
         <div className={styles.slider}>
@@ -18,9 +21,9 @@ const Header = () => {
           </div> */}
           <Carousel />
           <div className={styles.slider_header}>
-            <img
+            <Image
               className={styles.top_img}
-              src="/images/header-img-top.png"
+              src={header_img}
               alt="header img top"
             />
           </div>

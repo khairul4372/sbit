@@ -3,8 +3,8 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Hero from "../components/hero";
-import ContactUs from "../components/contact_us";
 import Career from "../components/career";
+import Contact from "../components/contact";
 import Footer from "../components/footer";
 
 export default function AboutUs() {
@@ -19,8 +19,8 @@ export default function AboutUs() {
       <main className={styles.main}>
         <Header />
         <Hero />
-        <ContactUs />
         <Career />
+        <Contact />
         <Footer />
       </main>
     </div>
