@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Hero from "../components/hero";
 import ContactUs from "../components/contact_us";
-import Contact from "../components/contact";
+import Career from "../components/career";
 import Footer from "../components/footer";
 
 export default function AboutUs() {
@@ -20,7 +20,7 @@ export default function AboutUs() {
         <Header />
         <Hero />
         <ContactUs />
-        <Contact />
+        <Career />
         <Footer />
       </main>
     </div>
