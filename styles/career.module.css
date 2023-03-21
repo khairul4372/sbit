@@ -1,0 +1,12 @@
+.c_body {
+    padding-bottom: 200px;
+}
+
+@media (max-width: 768px) {
+    .bg{
+       flex-direction: column;
+        
+    }
+    
+    
+}
